@@ -239,3 +239,20 @@ git commit -am "creata pagina Dove Siamo"
 git merge dove-siamo
 nano dove-siamo.html 
 git commit -am "Conflitto risolto su dove-siamo"
+cp ~/.bash_history ~/ITIS-Meucci
+git add .bash_history 
+git commit -am "Aggiunto .bash_history"
+git status
+ls
+ls -l
+git remote add origin https://github.com/SaggeseNiccolo/verifica-git.git
+git push origin master
+cd ~/Desktop
+git init
+git clone https://github.com/SaggeseNiccolo/verifica-git
+cd verifica-git/
+nano dove-siamo.html 
+git commit -am "aggiunto numero telefonico"
+git push origin master
+cd ~/ITIS-Meucci
+cp ~/.bash_history ~/Desktop/ITIS-Meucci
